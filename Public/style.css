@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.announcement-container {
+    background-color: #003e85;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 40px); /* Full width minus padding */
+    width: 100vw; /* Makes the background span the full viewport width */
+    height: 300px; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header_backround{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+   
+}
+
+
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+
+.announcement-list {
+    margin-bottom: 20px;
+}
+
+.announcement-item {
+    margin-bottom: 150px;
+}
+
+.announcement-item h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.announcement-item p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.announcement-item img {
+    width: 150px; /* Adjust the width as needed */
+    display: inline-block;
+    margin-right: 15px; /* Adds some space between the image and the text */
+    vertical-align: top; /* Aligns the image with the top of the text */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #002981;
+}
